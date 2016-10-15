@@ -34,7 +34,15 @@
         android:layout_toRightOf="@+id/button"
         android:onClick="hint"
         android:text="hint" />
-
+    <Button
+        android:id="@+id/onoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="on/off"
+        android:onClick="onoff"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/hintButton"
+        android:layout_toEndOf="@+id/hintButton" />
     <EditText
         android:id="@+id/guess"
         android:layout_width="wrap_content"
